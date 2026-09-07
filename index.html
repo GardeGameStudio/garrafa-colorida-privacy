@@ -1,70 +1,222 @@
-Política de Privacidade - Garrafa Colorida
-Última atualização: [06/09/2026]
-A presente Política de Privacidade explica como a GARDE GAME STUDIO trata informações relacionadas ao jogo POÇÃO LÓGICA.
-1. Dados coletados
-O jogo pode coletar ou processar:
-- Nome público e identificador do jogador fornecidos pelo Google Play Games.
-- Pontuação, posição no ranking, quantidade de rodadas e progresso do jogador.
-- Preferências locais, como idioma, volume, música, efeitos sonoros, vibração e conclusão do tutorial.
-- Informações técnicas necessárias para funcionamento, segurança e diagnóstico.
-- Informações relacionadas à exibição e interação com anúncios, processadas pelo Google AdMob, como identificadores de publicidade, informações do dispositivo, endereço IP e dados de desempenho dos anúncios.
-O jogo não solicita acesso a contatos, câmera, microfone ou localização precisa.
-2. Como utilizamos os dados
-Os dados são utilizados para:
-- Permitir o login pelo Google Play Games.
-- Identificar o jogador no ranking.
-- Salvar e exibir pontuações.
-- Sincronizar o progresso online.
-- Manter as configurações do jogador.
-- Exibir anúncios e recompensas publicitárias.
-- Prevenir fraude, abuso e manipulação de pontuação.
-- Corrigir falhas e melhorar a estabilidade do jogo.
-3. Serviços de terceiros
-O jogo utiliza serviços de terceiros, que podem processar dados conforme suas próprias políticas:
-- Google Play Games Services, para autenticação.
-- Unity Gaming Services, para ranking e dados online.
-- Google AdMob, para exibição de anúncios.
-- Google Play Services, para funcionamento de recursos Android.
-Os dados podem ser transmitidos a esses serviços somente quando necessário para fornecer os recursos do jogo.
-4. Armazenamento local
-Algumas informações são armazenadas localmente no aparelho, como:
-- Progresso;
-- Pontuação local;
-- Idioma;
-- Preferências de áudio;
-- Preferência de vibração;
-- Estado do tutorial.
-Esses dados podem ser removidos ao limpar os dados do aplicativo ou desinstalar o jogo.
-5. Anúncios
-O jogo utiliza anúncios do Google AdMob. Alguns anúncios podem ser recompensados, como anúncios usados para obter dicas ou duplicar a pontuação de uma rodada.
-Quando necessário, o jogo poderá solicitar consentimento para anúncios personalizados, de acordo com a região do jogador e as exigências aplicáveis.
-6. Ranking online
-Ao participar do ranking, o nome público, identificador técnico e pontuação do jogador podem ser armazenados nos serviços online utilizados pelo jogo.
-O ranking pode mostrar publicamente:
-- Nome público do jogador;
-- Posição;
-- Pontuação.
-O jogo não exibe publicamente o endereço de e-mail ou credenciais da conta Google.
-7. Segurança
-Adotamos medidas razoáveis para proteger as informações processadas pelo jogo. Entretanto, nenhum sistema de armazenamento ou transmissão pela internet é completamente seguro.
-8. Exclusão de dados
-O jogador pode solicitar a exclusão dos dados associados ao jogo entrando em contato pelo e-mail:
-gardegamestudio@gmail.com
-A solicitação deve informar:
-- Nome público utilizado no jogo;
-- Identificador do jogador, se disponível;
-- Motivo da solicitação.
-Após verificar a solicitação, removeremos ou anonimizaremos os dados que estiverem sob nosso controle, respeitando obrigações legais e limitações dos serviços de terceiros.
-O jogador também pode remover dados locais limpando os dados do aplicativo ou desinstalando o jogo.
-9. Privacidade de crianças
-O jogo é destinado ao público geral.
-Caso seja identificado que dados de uma criança foram coletados indevidamente, os responsáveis podem entrar em contato pelo e-mail:
-gardegamestudio@gmail.com
-10. Alterações nesta política
-Esta Política de Privacidade poderá ser atualizada para refletir mudanças no jogo, nos serviços utilizados ou nas exigências legais. A data da última atualização será alterada sempre que houver uma nova versão.
-11. Contato
-Para dúvidas ou solicitações relacionadas à privacidade:
-Desenvolvedor: GARDE GAME STUDIO
-Jogo: POÇÃO LÓGICA
-E-mail: gardegamestudio@gmail.com
-País: Brasil
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidade - Garrafa Colorida</title>
+
+  <style>
+    :root {
+      --background: #111315;
+      --card: #202427;
+      --text: #f4f1e8;
+      --muted: #bfc5c8;
+      --accent: #e5a928;
+      --border: #3b4145;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px 14px;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: 100%;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 32px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: var(--accent);
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin-top: 34px;
+      padding-bottom: 8px;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      font-size: 22px;
+    }
+
+    p,
+    li {
+      color: var(--text);
+      font-size: 16px;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      main {
+        padding: 22px 18px;
+        border-radius: 10px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p,
+      li {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Política de Privacidade</h1>
+
+    <p class="updated">
+      Jogo: <strong>Poção Lógica</strong><br>
+      Última atualização: 06 de setembro de 2026
+    </p>
+
+    <h2>1. Responsável</h2>
+    <p>
+      Esta política é administrada por <strong>Garde Game Studio</strong>.
+      Em caso de dúvidas, entre em contato pelo e-mail:
+      <a href="mailto:gardegamestudio@gmail.com">gardegamestudio@gmail.com</a>.
+    </p>
+
+    <h2>2. Dados utilizados</h2>
+    <p>O jogo pode utilizar:</p>
+
+    <ul>
+      <li>Nome público e identificador do Google Play Games;</li>
+      <li>Pontuação, posição no ranking e progresso;</li>
+      <li>Preferências de idioma, áudio, vibração e tutorial;</li>
+      <li>Informações técnicas para funcionamento e diagnóstico;</li>
+      <li>Informações necessárias para exibição de anúncios.</li>
+    </ul>
+
+    <p>
+      O jogo não solicita acesso a contatos, câmera, microfone ou localização precisa.
+    </p>
+
+    <h2>3. Finalidade dos dados</h2>
+    <ul>
+      <li>Realizar a autenticação do jogador;</li>
+      <li>Exibir e atualizar o ranking online;</li>
+      <li>Salvar o progresso e as configurações;</li>
+      <li>Exibir anúncios e anúncios recompensados;</li>
+      <li>Prevenir fraudes e manipulação de pontuação;</li>
+      <li>Corrigir erros e melhorar a estabilidade do jogo.</li>
+    </ul>
+
+    <h2>4. Serviços de terceiros</h2>
+    <p>O jogo utiliza serviços de terceiros, incluindo:</p>
+
+    <ul>
+      <li>Google Play Games Services;</li>
+      <li>Unity Gaming Services;</li>
+      <li>Google AdMob;</li>
+      <li>Google Play Services.</li>
+    </ul>
+
+    <p>
+      Esses serviços podem processar dados conforme suas próprias políticas de privacidade.
+    </p>
+
+    <h2>5. Anúncios</h2>
+    <p>
+      O jogo utiliza anúncios do Google AdMob, incluindo anúncios recompensados.
+      Dependendo da região do jogador, poderá ser solicitado consentimento para anúncios personalizados.
+    </p>
+
+    <h2>6. Ranking online</h2>
+    <p>
+      Ao participar do ranking, o nome público, a pontuação e a posição do jogador
+      podem ser exibidos para outros jogadores. O endereço de e-mail e as credenciais
+      da conta Google não são exibidos publicamente.
+    </p>
+
+    <h2>7. Dados armazenados no dispositivo</h2>
+    <p>
+      Preferências, progresso local, idioma, áudio, vibração e estado do tutorial
+      podem ser armazenados no dispositivo. Esses dados podem ser removidos limpando
+      os dados do aplicativo ou desinstalando o jogo.
+    </p>
+
+    <h2>8. Exclusão de dados</h2>
+    <p>
+      Para solicitar a exclusão dos dados associados ao jogo, envie uma mensagem para:
+      <a href="mailto:gardegamestudio@gmail.com">gardegamestudio@gmail.com</a>.
+    </p>
+
+    <p>
+      A solicitação deve informar o nome público utilizado no jogo e, se possível,
+      o identificador do jogador.
+    </p>
+
+    <h2>9. Segurança</h2>
+    <p>
+      Utilizamos medidas razoáveis para proteger os dados processados pelo jogo.
+      Porém, nenhum sistema de transmissão ou armazenamento é completamente seguro.
+    </p>
+
+    <h2>10. Crianças</h2>
+    <p>
+      O jogo é destinado ao público geral e não é direcionado especificamente a crianças
+      menores de 13 anos.
+    </p>
+
+    <h2>11. Alterações</h2>
+    <p>
+      Esta política poderá ser atualizada quando houver mudanças no jogo, nos serviços
+      utilizados ou nas exigências legais.
+    </p>
+
+    <h2>12. Contato</h2>
+    <p>
+      Garde Game Studio<br>
+      E-mail:
+      <a href="mailto:gardegamestudio@gmail.com">gardegamestudio@gmail.com</a>
+    </p>
+
+    <footer>
+      © 2026 Garde Game Studio. Todos os direitos reservados.
+    </footer>
+  </main>
+</body>
+</html>
